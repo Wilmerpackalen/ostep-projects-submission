@@ -9,6 +9,9 @@
 #include "spinlock.h"
 #include "syscall.h"
 
+// defs.h: void countinit(void); void count_syscall(int);
+// Makefile UPROGS: _testreadcount
+
 // laskuri ja mikä syscall on seurannassa
 struct spinlock countlock;
 int scount;
